@@ -1,5 +1,4 @@
 import type { TableData } from "../Types/Generic";
-import { FiEdit, FiTrash2 } from "react-icons/fi";
 
 type TableRowProps<T extends TableData> = {
   data: T[];
