@@ -24,7 +24,7 @@ const DashBox = ({ title, value }: DashBoxProps) => {
 
   return (
     <div className="bg-blue-400 py-6 px-3 flex text-white flex-col space-y-1 w-60 rounded-md shadow-lg hover:scale-[1.05] transition-all duration-[0.3s]">
-      <span className="text-sm font-semibold">{title}</span>
+      <span className="text-sm font-semibold text-center">{title}</span>
       <span className="font-bold text-2xl text-center">
         {Math.round(displayValue).toLocaleString("en-US")}
       </span>
